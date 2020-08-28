@@ -4,5 +4,5 @@ com.github.onozaty.junit.xml2csv.TestCase1,2020-08-28T04:39:49,com.github.onozat
 com.github.onozaty.junit.xml2csv.TestCase1,2020-08-28T04:39:49,com.github.onozaty.junit.xml2csv.TestCase1,test3,0.001,ERROR
 com.github.onozaty.junit.xml2csv.TestCase1,2020-08-28T04:39:49,com.github.onozaty.junit.xml2csv.TestCase1,test4,0.0,SKIPED
 com.github.onozaty.junit.xml2csv.TestCase1,2020-08-28T04:39:49,com.github.onozaty.junit.xml2csv.TestCase1,test5,0.002,PASSED
-com.github.onozaty.junit.xml2csv.TestCase2,2020-08-28T04:39:49,com.github.onozaty.junit.xml2csv.TestCase2,test1,0.0,PASSED
-com.github.onozaty.junit.xml2csv.TestCase2,2020-08-28T04:39:49,com.github.onozaty.junit.xml2csv.TestCase2,test2,0.002,FAILURE
+com.github.onozaty.junit.xml2csv.TestCase2,2020-08-28T04:39:50,com.github.onozaty.junit.xml2csv.TestCase2,test1,0.0,PASSED
+com.github.onozaty.junit.xml2csv.TestCase2,2020-08-28T04:39:50,com.github.onozaty.junit.xml2csv.TestCase2,test2,0.002,FAILURE
