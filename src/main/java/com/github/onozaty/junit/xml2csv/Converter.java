@@ -5,6 +5,7 @@ import java.io.Writer;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -13,6 +14,19 @@ import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVPrinter;
 
 public class Converter {
+
+    public static void main(String[] args) throws IOException {
+
+        if (args.length != 2) {
+            System.err.println("usage: java -jar junit-xml2csv-all.jar <junit xml directory> <output csv file>");
+            System.exit(1);
+        }
+
+        Path inputDirectoryPath = Paths.get(args[0]);
+        Path outputFilePath = Paths.get(args[1]);
+
+        new Converter().convert(inputDirectoryPath, outputFilePath);
+    }
 
     public void convert(Path inputDirectoryPath, Path outputFilePath) throws IOException {
 
